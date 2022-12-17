@@ -1,0 +1,88 @@
+
+
+.thumbnails .carousel{
+    display: flex;
+    width: 100%;
+}
+.thumbnails .carousel div{
+    flex-wrap: nowrap;
+}
+.slick-item{
+    transition:all 0.3s ease;
+}
+#trending{
+    margin-top: 2em;
+}
+.slick-item:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+h2 {
+    width: 300px;
+    padding: 0;
+    color: antiquewhite;
+    font-size: 25px;
+}
+.slick-next{
+    right: 20px;
+    z-index: 999;
+    background-color: black;
+    border: 2px solid black;
+    padding: 2em;
+    font-size: 30px;
+
+}
+.slick-next:before{
+    background-color: black;
+    border: 2px solid black;
+    padding: 2em;
+    font-size: 50px;
+}
+.slick-next .slick-arrow::before{
+    background-color: black;
+    border: 2px solid black;
+    padding: 2em;
+    font-size: 50px;
+}
+img {
+    /* border-radius: 7px; */
+    width: 250px;
+    max-height: 180px;
+  }
+.movie {
+    margin: 20px 0;
+  }  
+div.thumbnails .carousel {
+    width:100%;
+    display: flex;
+}
+.banner{
+    color: #fff;
+    /* object-fit: contain; */
+    height: 50vh;
+    /* background-position: top center; */
+}
+.banner-title{
+    margin-left: 3em;
+    padding-top: 140px;
+    height: 190px;
+}
+.banner-title h1{
+    font-size: 4rem;
+    padding-bottom:.3rem;
+    font-weight: 800;
+    margin-left: 0.6em;
+}
+ngx-slick-carousel{
+    padding: 20px;
+}
+.content{
+    max-width: 400px;
+    margin-left: 3em;
+}
+.content p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
